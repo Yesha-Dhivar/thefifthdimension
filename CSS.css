@@ -1,0 +1,152 @@
+table, th, td {
+    border: 2px solid;
+    border-color: #EE6C4D;
+    border-collapse: collapse;
+    width: 90%;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+
+  #tableDetail.hiddenRow{
+    display: none;
+  }
+  .header {
+    padding: 20px;
+    text-align: right;
+    background: #293241;
+    color: white;
+    font-size: 30px;
+    border: none;
+    display: flex;
+  }
+
+  #button{
+    border: None;
+    cursor: pointer;
+}
+
+  #button:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+
+  #Foundatiom.display{
+    display: none;
+  }
+
+  .hiddenRow{
+    border: 2px solid;
+    border-color: #EE6C4D;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 4%;
+    padding: 10px;
+    align-items: center;
+  }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #293241;
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+  }
+
+  #buttonF{
+    color: black;
+    cursor: pointer;
+  }
+
+  #img{
+    opacity: 65%;
+  }
+
+  .imageContainer {
+    height: auto;
+    width: auto; 
+    background-image: url(background.jpg);
+}
+
+#name{
+  border: solid;
+}
+
+#enrolno{
+  border: solid;
+}
+
+.form{
+  padding: 20px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 0%;
+  font-size: 50px;
+  text-shadow: black;
+  font-family: 'Dela Gothic One',cursive;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-centered {
+  position: absolute;
+  bottom: 650px;
+  left: 500px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#part2{
+  margin-top: 150px;
+  margin-bottom: 0px;
+}
+
+#bttn{
+  border: solid;
+  border-color: #293241;
+  border-radius: 15px;
+  padding: 5px;
+}
+#logo{
+  width: 125px;
+  height: 100px;
+  padding: 20px;
+  border: none;
+  margin-bottom: 0px;
+  box-align: right;
+}
